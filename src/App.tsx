@@ -26,13 +26,15 @@ function App() {
     const inputMood = e.target.value.toLowerCase();
     setMood(inputMood);
     setEmoji(moodEmojis[inputMood] || '');
-    console.log('Mood submitted:', mood);
+    
   };
+    
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setMood('');
     setEmoji('');
+    console.log("🚀 ~ App ~ Mood:", mood)
   };
 
   return (
