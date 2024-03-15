@@ -46,7 +46,7 @@ function App() {
         <form onSubmit={handleSubmit}>
             <Input placeholder='Write Your emotion you feel !' width={450} value={mood} onChange={handleMoodChange} className="input"/>
            
-            <IconButton isRound={true} variant='solid'  type="submit"  colorScheme='red'  aria-label='Done'  fontSize='20px'  icon={<RepeatIcon />}  />
+            <IconButton isRound={true} variant='solid'  type="submit"  colorScheme='red'  aria-label='Done'  fontSize='20px'  icon={<RepeatIcon />} />
             </form>
       </div>
       <div className="read-the-docs">
